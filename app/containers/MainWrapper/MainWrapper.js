@@ -32,9 +32,6 @@ export class MainWrapper extends React.Component {
 }
 
 MainWrapper.propTypes = propTypes
-MainWrapper.contextTypes = {
-    router: React.PropTypes.object.isRequired,
-}
 
 const mapStateToProps = (state) => {
     return {
